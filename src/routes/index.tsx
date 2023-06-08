@@ -4,7 +4,7 @@ import { Spin } from 'antd';
 import ErrorBoundary from '@/components/ErrorBoundary';
 import NotFound from '@/pages/NotFound';
 
-import UseReducerDm from '@/pages/UseReducerDm';
+import UseReducerDm from '@/pages/UseContextDm';
 
 const Routes = (): React.ReactElement => {
   return (
