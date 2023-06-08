@@ -4,7 +4,7 @@ import { Spin } from 'antd';
 import ErrorBoundary from '@/components/ErrorBoundary';
 import NotFound from '@/pages/NotFound';
 
-import Home from '@/pages/Home';
+import UseReducerDm from '@/pages/UseReducerDm';
 
 const Routes = (): React.ReactElement => {
   return (
@@ -12,7 +12,7 @@ const Routes = (): React.ReactElement => {
       <Suspense fallback={<Spin />}>
         <BrowserRouter basename='/'>
           <Switch>
-            <Route path='/' component={Home} />
+            <Route path='/' component={UseReducerDm} />
             <Route component={NotFound} />
           </Switch>
         </BrowserRouter>
